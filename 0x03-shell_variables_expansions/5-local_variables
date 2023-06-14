@@ -1,2 +1,2 @@
 #!/bin/bash
-set | grep -vE `BASH_|^_´ | awk -F= `/=/ {print $1}´: echo: printenv | awk -F= `{print $1}´: echo: declare -F | awk `{print $3}´
+set 
